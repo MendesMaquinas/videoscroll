@@ -52,6 +52,27 @@ nav a {
   text-decoration: none;
 }
 
+.title-box {
+  position: fixed;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.title-box h1 {
+  color: #fff;
+  font-size: 80px;
+}
+
+.title-box img {
+  height: 800px;
+  width: 800px;
+}
+
 .lottie-container {
   display: flex;
   align-items: center;
